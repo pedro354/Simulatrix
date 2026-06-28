@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "Simulatrix API",
+    "_postman_id": "f1d5e2a8-6c4b-4f8c-9f1e-123456789abc",
+    "description": "Coleção para testar o endpoint setHouseSetup",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Set House Setup",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"description\": \"uma sala confortável para assistir filmes com iluminação suave e temperatura agradável\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/setHouseSetup",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "setHouseSetup"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

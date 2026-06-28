@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulatrix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Simulatrix</h1>
+
+  <div class="house">
+    <img src="house.png" alt="Casa" class="house-image">
+
+    <div id="light1" class="light left"></div>
+    <div id="light2" class="light center"></div>
+    <div id="light3" class="light right"></div>
+
+    <div id="ac" class="ac">
+      <span id="tempDisplay">22°C</span>
+    </div>
+  </div>
+
+  <section class="controls">
+    <div class="scenario-box">
+      <h3>Cenário desejado</h3>
+
+      <input
+        type="text"
+        id="scenarioInput"
+        placeholder="Ex: sala romântica para assistir filmes"
+      >
+
+      <button id="submitScenario">
+        Aplicar Cenário
+      </button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
